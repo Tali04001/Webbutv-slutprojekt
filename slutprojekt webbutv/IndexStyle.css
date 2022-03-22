@@ -1,13 +1,13 @@
 body{
     margin: 0;
-    background-color: rgb(19, 14, 14);
+    background-color: rgb(75, 18, 18);
 
 }
 
 .grid-container{
 display: grid;
 grid-template-columns: 1fr 40fr 1fr;
-grid-template-rows: 500px 700px;
+grid-template-rows: 35em 1fr 700px;
 }
 
 .picture{
@@ -15,6 +15,13 @@ grid-template-rows: 500px 700px;
     background-image: url(Batmancar.jpg);
     background-size: cover;
     
+}
+
+.description{
+    background: rgb(236, 236, 236);
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
