@@ -3,7 +3,7 @@ body{
 }
 .navbar { 
     overflow: hidden;
-    background-color: rgb(24, 25, 32);
+    background-color: rgb(32, 33, 41);
     display: fixed;
     position: sticky;
     top: 0;
@@ -12,11 +12,11 @@ body{
 
 nav > ul{
     display: flex;
-    list-style-type: none;
+     list-style-type: none;
     flex-wrap: wrap;
     font-size: 18px;
     font-family:Arial, Helvetica, sans-serif;
-    margin: 1em 1em 1em 0;
+   
 }
 nav li {
     margin: 0;
@@ -25,12 +25,19 @@ nav li {
 .navbar a {
     font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 18px 60px;
     text-decoration: none;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn { 
-    background-color: rgb(119, 10, 10);
+    background-color: rgb(6, 7, 8);
+    text-decoration: underline;
+    color:rgb(255, 202, 133);
+    transition: background-color 0.5s, color 0.5s;
+    
 }
+
+
+
