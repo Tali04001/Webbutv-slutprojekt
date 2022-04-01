@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background-color: rgb(80, 18, 18);
+
+}
+
+.grid-container{
+display: grid;
+grid-template-columns: 1fr 40fr 1fr;
+grid-template-rows: 35em 1fr 700px;
+}
+
+.picture{
+    grid-area: 1 / 2 / 2 / 3 ;
+    background-image: url(Batmancar.jpg);
+    background-size: cover;
+    
+}
+
+.description{
+    background: rgb(241, 240, 240);
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+    
+   
+   
+}
+
+.mellanrum{
+    margin: 0;
+    color:rgb(80, 18, 18);
+}
+
+
