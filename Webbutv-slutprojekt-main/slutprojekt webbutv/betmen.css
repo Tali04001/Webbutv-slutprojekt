@@ -1,0 +1,16 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 30fr 10fr 1fr;
+    grid-template-rows: 35em 1fr 700px;
+    }
+
+    .mellanrum{
+     margin: 0;
+    background-color:rgb(80, 18, 18);
+    }
+
+    .pic{
+    grid-area: 1 / 2 / 2 / 3;
+    
+    
+    }
