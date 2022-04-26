@@ -4,7 +4,7 @@ body{
 }
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 20fr 20fr 1fr;
+    grid-template-columns: 1fr 40fr 1fr;
     grid-template-rows: 35em 1fr 700px;
     }
 
@@ -15,11 +15,16 @@ body{
 
     .videoarea{
         background: rgb(241, 240, 240);
+        padding-left: 118px;
+        border: 2px solid black;
 
     }
 
     .info{
         background: rgb(241, 240, 240); /*färg i röd,grön och blå*/
+        padding-left: 20px; /*trycker texten innåt åt vänster*/
+    padding-right: 20px;/*trycker texten innåt åt höger*/
+    border: 2px solid black;
         
     }
 
@@ -35,6 +40,7 @@ body{
         padding-right: 20px;/*trycker texten innåt åt höger*/
         font-family:Arial, Helvetica, sans-serif;
         font-size: 27;
+        
     }
     
     
