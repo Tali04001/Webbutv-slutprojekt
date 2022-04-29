@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: rgb(44, 36, 36);
+
+}
+
+.grid-container{
+display: grid;
+grid-template-columns: 1fr 40fr 1fr;
+grid-template-rows: 35em 1fr 700px;
+}
+
+.picture{
+    grid-area: 1 / 2 / 2 / 3 ;
+    background-image: url(Batmancar.jpg);
+    background-size: cover;
+    
+}
+
+.description{ /*Den vita rutan där det ska stå text i*/
+    background: rgb(204, 204, 204); /*färg i röd,grön och blå*/
+    font-family:Arial, Helvetica, sans-serif; /*font*/
+    padding-left: 20px; /*trycker texten innåt åt vänster*/
+    padding-right: 20px;/*trycker texten innåt åt höger*/
+    border: 2px solid black;
+    
+   
+   
+}
+
+.mellanrum{
+    margin: 0;
+    color:rgb(44, 36, 36);
+}
+
+
+
+
+
