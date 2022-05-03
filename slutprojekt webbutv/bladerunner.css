@@ -1,0 +1,34 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 17fr 23fr 1fr;
+    grid-template-rows: 50em 1fr 700px;
+    }
+
+    body{
+        margin: 0;
+        background-color:rgb(168, 52, 143);
+    }
+
+    .sec3{
+        margin: 0;
+        background-color:rgb(255, 255, 255);
+    }
+
+       .brposter{
+        background-image: url(Bladerunner2049bild.jpg);
+        background-size: cover;
+       }
+
+       @media screen and (max-width: 700px) {
+        .grid-container{
+            grid-template-columns: 1fr 40fr 1fr;
+           grid-template-rows: 50em 1fr 700px;
+        }
+        body{
+            margin: 0;
+            background-color:rgb(168, 52, 143);
+        }
+
+            
+        }
+       
