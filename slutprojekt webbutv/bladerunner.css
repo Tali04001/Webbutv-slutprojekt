@@ -1,17 +1,26 @@
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 17fr 23fr 1fr;
-    grid-template-rows: 50em 1fr 700px;
+    grid-template-rows: 55em 240px ;
     }
 
     body{
         margin: 0;
-        background-color:rgb(168, 52, 143);
+        background-image: url("br20.jpg");
+        background-size: initial;
     }
 
     .sec3{
         margin: 0;
         background-color:rgb(255, 255, 255);
+        border-style: solid;
+        border-width: 1px;
+        border-top: white;
+        
+
+        border-bottom-right-radius: 20px;
+        
+        
     }
 
        .brposter{
@@ -24,11 +33,11 @@
             grid-template-columns: 1fr 40fr 1fr;
            grid-template-rows: 50em 1fr 700px;
         }
-        body{
+        .sec3{
             margin: 0;
             background-color:rgb(168, 52, 143);
+        } 
         }
 
-            
-        }
+        
        
