@@ -1,0 +1,72 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 17fr 23fr 1fr;
+    grid-template-rows: 56em 240px ;
+    }
+
+    body{
+        margin: 0;
+        background-image: url("br20.jpg"); /*bakgrunden ska vara en bild*/
+        background-size: initial; /*Odefinerat men jag har kvar den för att.*/
+    }
+
+    .sec3{
+        grid-column: 3/4;
+        margin: 0;
+        background-color:rgb(255, 255, 255); /*färg*/
+        border-style: solid;
+        border-width: 1px;
+        border-top: white;
+        padding-left: 20px ;
+        border-bottom-right-radius: 20px;
+        
+    }
+
+    iframe{
+        width: 800px;
+        height: 50px;
+        border: 0;
+    }
+
+       .brposter{
+        background-image: url(Bladerunner2049bild.jpg);
+        background-size: cover;
+        grid-column: 2/3;
+        border-bottom-left-radius: 20px;
+
+       }
+    main a:link{
+        color: rgb(53, 53, 253);
+    }
+    main a:visited{
+        color: rgb(156, 28, 230);
+    }
+    main a:hover{
+        color: rgb(21, 21, 218);
+    }
+    main a:active{
+        color: rgb(216, 10, 51);
+    }
+
+       @media screen and (max-width: 843px) {
+        .grid-container{
+            grid-template-columns: 1fr ;
+           grid-template-rows: 55em 1fr ;
+        }
+        .brposter{
+      grid-column: 1;
+      border-radius: 0;
+    }
+    .sec3{
+        
+        grid-column: 1;
+        border-radius: 0;
+    }
+        }
+iframe{
+        width: 400px;
+        height: 50px;
+        border: 0;
+}
+        
+       

@@ -1,0 +1,22 @@
+body{
+        margin: 0;
+        background-image: url("BR2049.jpg");
+        
+}
+
+.ooo{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*vilken text font */
+    color: white;
+
+}
+
+input[type="submit"] /*hur knappen ser ut*/
+{
+    border-radius: 14px;
+    width: 90px;
+    height: 30px;
+    background: #ceff1d /*färg i annat system än rgb/rgba*/
+
+}
