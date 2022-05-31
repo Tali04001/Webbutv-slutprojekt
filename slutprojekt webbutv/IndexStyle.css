@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background-image: url("cinema.jpg");
+    
+}
+.grid-container{
+display: grid;
+grid-template-columns: 1fr 40fr 1fr; /*en column som är liten, en stor, en till liten*/
+grid-template-rows: 35em 1em 500px; /*En rad 35ggr större än den andra och en rad som är 500px hög.*/
+}
+
+.picture{
+    background-image: url(Batmancar.jpg); /*Bakgrundsbilden i en av rutorna*/
+    background-size: cover; /*Ska täcka, så den inte dubblas, tripplas osv.*/
+    
+    
+}
+
+.description{ /*Den vita rutan där det ska stå text i*/
+   
+    background: rgb(255, 255, 255); /*färg i röd,grön och blå*/
+    font-family:Arial, Helvetica, sans-serif; /*font*/
+    padding-left: 20px; /*trycker texten innåt åt vänster*/
+    padding-right: 20px;/*trycker texten innåt åt höger*/
+    border: 2px solid black;
+   
+    
+   
+   
+}
+
+
+
+.fot{
+    margin: 0; /*ingen margin/inget som trycker innåt.*/
+    background-color:rgb(0, 0, 0); /*Färg i röd,grön,blå.*/
+    color: azure; /*fär till texten.*/
+    
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid  #514a63;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #c7c7c7;
+  }
+
+td{
+    padding-left: 30px;
+}
+
+footer{
+    height: 70px;
+}
+
+footer p {
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+
+
+
+
+

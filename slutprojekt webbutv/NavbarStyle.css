@@ -1,0 +1,61 @@
+body{
+    margin: 0; /*Ser till att det inte är någon äcklig vit ram runt sidan.*/
+}
+.navbar { 
+    overflow: hidden; /*Den ska täcka det utanför navbaren */
+    background-color: rgb(18, 20, 34); /*backgrundsdärg.*/
+    position: sticky;
+    top: 0;
+    padding-top: 0%;
+    z-index: 1; /*Gör så att navbaren är lagret längst fram*/
+}
+
+nav > ul{
+    display: flex; /*använd flex, är rekomenderat till navbars*/
+     list-style-type: none;/*Inga prickar eller kvadrater osv.*/
+    flex-wrap: wrap; /*ser till så att flexboxen beter sig som jag vill.*/
+    font-size: 20px; /*text storlek*/
+    font-family:Arial, Helvetica, sans-serif; /*fonten jag ville ha.*/
+    margin: 0; /*inget som trycker innåt*/
+    
+   
+}
+ nav li a{ /*descendant selektor (anropar a taggen som finns innuti en lista som finns i nav sektionen)*/
+  display: block; /*använd block*/
+  color: white; /*text färgen*/
+  text-align: center; /*centrera texten*/
+  padding: 14px 16px;
+  text-decoration: none; /*inga circlar eller liknande framför.*/
+  margin: 0;
+}
+
+.navbar a { /*länken innuti navbar*/
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn { /*a:hover = en psuedo klass*/
+    background-color: rgb(32, 36, 61); /*bakgrunds färgen*/
+    text-decoration: underline; /*ska bli en linje under när kraven ovanför möts*/
+    color:rgb(255, 202, 133); /*ändrar färg*/
+    transition: background-color 0.5s, color 0.5s; /*en slags övergång eller animation*/
+    
+}
+.color{ /*class selektor*/
+    background-color: rgb(40, 45, 78);
+}
+
+
+
+@media screen and (max-width: 700px) { /*när rutan är mindre än 700 pixlar ändras det.*/
+    /*child selektor*/nav> ul{
+        flex-direction: column; /*Navigationsmenyn blir vertikal.*/
+    }
+
+    
+}
+
